@@ -7,7 +7,7 @@ async function geoCodeLocation(location) {
 
     const response = await fetch(url, {
         headers: {
-            'User-Agent': 'YourAppName/1.0 (your@email.com)'
+            'User-Agent': 'SmartCropWatch/1.0 (shivam.tyagi01@gmail.com)'
         }
     });
 
